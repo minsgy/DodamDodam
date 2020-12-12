@@ -1,0 +1,131 @@
+﻿
+<!DOCTYPE html>
+
+<!--메인화면-->
+<html>
+<head>
+    <title>도담도담에 오신걸 환영합니다.</title>   
+     <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <!--select 옵션 이동키 검색엔진-->    
+    <script type="text/javascript">
+            function goLInk() {
+                var frm = document.link_form;
+                if (frm.link.value != "") {
+                    window.open(frm.link.value);
+                }
+            }
+           
+        </script>
+</head>
+<body>
+    <header> <!--맨위제목부분-->
+    <h1>
+          <img src="로고1.png" />
+      <!--
+          <a href="EVENT.html"> 
+            <img src="images/EVENT.png" width="300" height="200" />
+        </a>-->
+
+         </h1>
+    </header>
+
+    <nav> <!--헤더부분밑-->
+        <ul>
+            <li><a href="parcelout.html" target="_self"><strong>애견분양</strong></a></li>
+            <li><a href="food.html" target="_self"> <strong>수제간식</strong></a></li>
+            <li><a href="report.html" target="_self"><strong>유기견 신고</strong></a></li>
+        </ul>
+    </nav>
+    
+    <aside id="left"><!--중간 왼쪽-->
+    <h4>
+       메뉴
+    </h4>
+    <ul>
+        <li><a target="_self" href="필독사항.html">필독사항</a></li>
+        <li><a target="_self" href="operator.html">관리자소개</a></li> <!--게시판-->
+        <li><a target="_self" href="map.html">오시는길</a></li>
+    </ul>
+        <div style="float:left; padding-top:50px">
+            <img src="운영방식.png"/>
+        </div>
+    </aside>
+
+   
+    <section id="main"><!--중앙-->
+
+     <div style="border:2px double #31fc00">
+            <a href="dogs/1.html" target="_self">
+                <img src="닥스훈트.png"/>
+            </a>
+        </div>
+        <div style="border:2px double #31fc00">
+            <a href="dogs/2.html" target="_self">
+                <img src="비글.png"/>
+            </a>
+        </div>
+            <form name="link_form">   
+         <select title="검색엔진선택" name="link">
+            <option value=""selected>고르시오</option>
+            <option value="dogs/1.html"target="_self">닥스훈트</option>
+            <option value="dogs/2.html"target="_self">비글</option>
+            <option value="dogs/3.html"target="_self">시바견</option>
+            <option value="dogs/4.html"target="_self">시츄</option>
+            <option value="dogs/5.html"target="_self">요크셔테리어</option>
+            <option value="dogs/6.html"target="_self">치와와</option>
+            <option value="dogs/7.html"target="_self">파피용</option>
+            <option value="dogs/8.html"target="_self">포메라니안</option>
+            <option value="dogs/9.html"target="_self">푸들</option>
+        </select>
+         </form>
+         찾으시는 애견 선택 후 GO버튼을 눌러주세요.
+        <button type="button" onclick="goLInk(); return false;" >GO</button>
+       
+     </section>
+  
+
+    <aside id="right"><!--중간 오른쪽-->
+        <div id="event">
+           <h4>
+               <a href="event.html">
+                   <img src="images/EVENT.png" width="300" height="100" />
+               </a>
+            </h4>
+          </div>
+
+        <div id="login">
+            <div class="loginForm">
+                <form method="post" name="" action="">
+                    <div class="box">
+                        <input type="text" class="iText" placeholder="아이디 입력">
+                        <br>
+                        <input type="password" name="" id="" class="iText" placeholder="비밀번호 입력">
+                        <br>
+                        <p>
+                            <span class="fleft"><input type="checkbox" id=""><label for=""> 아이디 저장</label></span>
+                            <span class="fright"><a href="">아이디 찾기</a>&nbsp;|&nbsp;<a href="">비밀번호 찾기</a></span>
+                        </p>
+                    </div>
+                    <a href="#" id="" class="loginBtn">로그인</a>
+                </form>
+            </div>
+               <pre>  
+<strong>회원가입은 문의를 통해 
+인증 후 가입 됩니다.</strong>
+                   </pre>    
+</div>
+
+ <!--팝업창 뜨기--> <a href="#" style="border:none;"onClick="javascript:window.open('도담도담.html','popup','scrollbars=no, resizable=no, width=570,height=330')">
+             <img id="dodam1" src="개발바닥.png" width="300" height="300"/>
+         </a>
+        <div style="float:left; padding-top:20px; font-weight:bolder; color:black;">
+            <pre>Copyright 
+ⓒ 2016 Welcome dodamdodam site.
+        All right Reserver </pre>
+        </div>
+    </aside>
+    
+    <footer><!--바닥-->
+
+</body>
+</html>

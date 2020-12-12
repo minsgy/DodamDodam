@@ -1,0 +1,79 @@
+﻿body{
+      scrollbar-face-color: #ffffff;
+ 	scrollbar-highlight-color: #cccccc;
+ 	scrollbar-3dlight-color: #FFFFFF;
+ 	scrollbar-shadow-color: #cccccc;
+ 	scrollbar-darkshadow-color: #FFFFFF;
+ 	scrollbar-track-color: #ffffff;
+ 	scrollbar-arrow-color: #cccccc;
+      width: 900px;
+    height: 450px;
+    background:#9af790;
+}
+fieldset{
+    background-color:white;
+}
+aside#right p{/*경고 필독사항*/
+    text-align:center;
+    font-size:25px;
+     border-top: 5px double red;
+    border-bottom: 5px double red;
+      background-color: white;
+}
+header{
+    background-color: black;
+
+}
+
+img{
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+      background-color: white;
+}
+
+h1{
+   color: white;
+   font-size: 20px;
+    text-align:center;
+    margin-top: 10px;
+   margin-bottom: 10px;
+     border-top: 5px double white;
+    border-bottom: 5px double white;
+    border-radius: 50px;
+
+}
+pre{
+    font-size:12px;
+}
+
+#right
+{
+     padding-top: 35px;
+    margin-left: 5px;
+    width: auto;
+    height: 250px;
+    float: right;
+}
+#left{
+    padding-top: 30px;
+    margin-left: 2px;
+    width: auto;
+    float: left;
+}
+label
+{
+    padding-bottom: 10px;
+}
+
+#left p strong
+{
+    margin-top:20px;
+    text-align:center;
+    border-top: 3px double black;
+    border-bottom: 3px double black;
+    padding-top:3px;
+    padding-bottom:3px;
+          background-color: white;
+}

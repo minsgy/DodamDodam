@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="event.css" />
+    <script language="JavaScript">
+	function random2(){
+		form1.txt2.value = Math.round(Math.random()*100) + 1; // 1부터 100까지 랜덤수 출력
+	}
+    </script>
+
+    <br>
+    <header>
+        <h1>
+            EVENT TIME!!!
+       </h1>
+    </header>
+</head>
+<body>
+  <h2> 오픈 기념 대박 이벤트 </h2>
+    <p> 기간 2016. 12. 10 ~ 2017. 1. 20</p>
+    <p> 제비 뽑기를 통하여 나온 값에서 정해진 숫자가 나오면 경품 당첨!!!</p>
+    <p> [넘버원] 1 : 무작위 간식 1종 제공</p>
+    <p> [행운의] 7 : 간식 70% 할인 쿠폰 제공</p>
+    <p> [행운이 두개?] 77 : 강아지 쿠션 및 방석 제공</p>
+      <form name="form1">
+        <!--랜덤시켜서 값출력하기-->
+        <input type="text" name="txt2" size="1"><input type="button" value="제비뽑기" onclick="random2()">
+        <br>
+        <br>
+    <p id="file1">제비뽑기를 통하여 나온 값을 캡쳐하여 .png 파일 형태로 등록</p>
+        <form action="" method="post" enctype="multipart/form-data" name="">
+            <input type="file" name="FileName">
+        </form>
+          <br />
+          <br />
+          <input type="submit" value="당첨신청" onclick="alert('제출완료')" />
+          <a href="index.html">
+              <button type="button" onclick="">메인화면가기</button>
+          </a>
+    </form>
+</body>
+</html>

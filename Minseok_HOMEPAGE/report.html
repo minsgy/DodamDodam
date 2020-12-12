@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="report.css" />
+</head>
+<body>
+    <h1>유기견 신고</h1>
+    <aside id="left">
+        <fieldset>
+            <legend><strong>신고자 정보</strong></legend>
+            <br />
+            <label for="name">신고자 이름 :</label>
+            <input type="text" name="name" id="text1" />
+            <br />
+            <br />
+            <label for="tel">신고자 휴대폰 번호 :</label>
+            <input type="tel" name="tel">
+            <br />
+            <br />
+            <label for="name2">유기견 위치 :</label>
+            <input type="text" name="name" id="text2" />
+            <br />
+            <br /><br />
+            <fieldset>
+                <legend><strong>유기견 상태</strong></legend>
+                <br />
+                <label for="dogs">상태가 심각함</label>
+                <input type="radio" name="dogsyes" id="dogs" value="dogs" />
+                <label for="dogs2">약간의 상처</label>
+                <input type="radio" name="dogsno" id="dogsno" value="dogsno" />
+                <label for="dogs2">상태는 양호함</label>
+                <input type="radio" name="dogs123" id="dogs123" value="dogs123" />
+                <br />
+            </fieldset>
+            <br />
+            <h4>현재 상황</h4>
+               <textarea name="review" form="inform" cols="40" rows="10" autofocus required wrap="hard"></textarea>
+            <br />
+            <br />
+           <fieldset>
+          <legend >  유기견 사진 </legend>         
+            <form action="" method="post" enctype="multipart/form-data" name="">
+                <input type="file" name="FileName">
+            </form>
+            </fieldset>
+            <br />
+            <input type="submit" value="신고하기" onclick="alert('신고완료')" />
+            <a href="index.html">
+                <button type="button" onclick="">메인화면가기</button>
+            </a>
+            <br />
+        </fieldset>
+    </aside>
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿body{
+     text-align:center;   
+     height: 20px;
+}
+p
+{
+    font-weight:bolder;
+}
+h2
+{
+     border-top: 2px solid green;/*윗 경계선*/
+    border-bottom: 2px solid green;/*아래 경계선.*/
+    padding: 2px 0;/*상하 패딩은 10px, 좌우 패딩은 0*/
+}

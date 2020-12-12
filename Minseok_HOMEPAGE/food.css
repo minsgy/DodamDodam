@@ -1,0 +1,60 @@
+﻿html{
+       margin: 0 auto;
+}
+body{
+       scrollbar-face-color: #ffffff;
+ 	scrollbar-highlight-color: #cccccc;
+ 	scrollbar-3dlight-color: #FFFFFF;
+ 	scrollbar-shadow-color: #cccccc;
+ 	scrollbar-darkshadow-color: #FFFFFF;
+ 	scrollbar-track-color: #ffffff;
+ 	scrollbar-arrow-color: #cccccc;
+    
+    text-align:center;
+     background-color:white;
+    height: 456px;/*높이*/
+    width:945px; /*너비*/
+    min-height:100px;
+    overflow:auto;
+}
+
+section
+{
+    text-align:center;
+}
+
+section p
+{
+    font-weight:bolder;
+    font-family:맑은 고딕;
+    border-top: 2px solid green;/*윗 경계선*/
+    border-bottom: 2px solid green;/*아래 경계선.*/
+    padding: 7px 0px;/*상하 패딩은 10px, 좌우 패딩은 0*/
+}
+
+section a
+{
+    font-weight:bolder;
+    text-align:center;
+}
+
+footer
+{
+    font-weight:bolder;
+    font-family:맑은 고딕;
+    color:white;
+    width:100%;
+    height: 20px;
+    clear: both;
+    background-repeat:repeat-x;
+
+    padding: 2px 0;/*상하 패딩은 10px, 좌우 패딩은 0*/
+    background-color:black;
+    text-decoration: none;
+}
+
+footer a
+{ 
+    text-decoration: none;
+    text-align:left;
+}

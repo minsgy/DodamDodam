@@ -1,0 +1,177 @@
+﻿*{
+    padding : 0px;
+    margin : 0px;
+}
+
+html{ /*홈페이지 사이즈*/
+    width:1024px;
+    height:820px;
+
+    margin: 0 auto;
+
+}
+body {
+    scrollbar-face-color: #ffffff;
+ 	scrollbar-highlight-color: #cccccc;
+ 	scrollbar-3dlight-color: #FFFFFF;
+ 	scrollbar-shadow-color: #cccccc;
+ 	scrollbar-darkshadow-color: #FFFFFF;
+ 	scrollbar-track-color: #ffffff;
+ 	scrollbar-arrow-color: #cccccc;
+    background-color: #ffffff; /*배경색지정*/
+}
+
+
+
+header{
+    height:100px;
+    margin-bottom:120px;
+}
+
+h1 { /*로고*/
+    text-align: center; /*내용물 정중앙*/
+}
+
+nav{
+    margin-top: 20px;
+}
+nav ul{ /*상단메뉴*/
+    list-style: none; /*불릿을 표시하지않음*/
+    text-align: center;/*내용물은 중앙 정렬*/
+     background-color: forestgreen;
+    border-left: 7px double white;
+    border-right: 7px double white;
+    padding: 3px 0px 3px 0px;
+    margin-bottom: 6px;
+   /* background-image: url(images/background1.png); */
+
+}
+nav ul li{ 
+    display: inline;/*<li>요소는 블록이지만 인라인 요소로 변경 --> 수평메뉴 전환*/
+    font-style:맑은 고딕;
+    font-size: 14px;
+    padding: 0px 25px 0px 30px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    letter-spacing: 10px; /*글자 간격이 10픽셀*/
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+   color:red;
+   border-bottom: 3px solid yellow; /*마우스가 위에 떠있으면 밑줄이 그어지게 한다.*/
+}
+
+/*왼쪽 배치*/
+
+aside#left{
+    width: 200px;
+    margin-top:0px;
+    float: left; /*왼쪽 떠 있도록 배치*/
+}
+
+#left h4{ /*카테고리 글자*/
+    background: #01ff1e;
+     font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+     font-size: 20px;
+     text-align: center;
+     margin-bottom:0px;
+     color: white;
+        border-left: 7px double white;
+
+}
+#left ul{ /*카테고리 메뉴 글자*/
+    font-family:Arial, Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 30px;
+    color: black;
+    list-style:none;
+    text-align:center;
+}
+#left ul li{
+    background: #3f3f3f;
+    line-height:100px; /*글자포함 공백까지*/
+    margin-bottom: 0px;
+    font-size:15px;
+    font-weight:bolder;
+    background-image:  url(뼈다귀1.png);
+    background-size: 200px, 200px;
+}
+#left ul li a{
+    text-decoration: none;
+    color: black;
+    display: block; /*글자뿐만 아니라 한 줄 전체가 선택 된다.*/
+}
+#left ul li:hover{
+    background-image: url(뼈다귀2.png);
+    background-size:200px, 200px;
+}
+#left ul li a:hover{
+    color: red;
+}
+#left ul li#active{
+    background: #808080;
+}
+
+#main{
+    
+    font-family:Arial, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #464646;
+    overflow: hidden; /*내용이 칸에 넘칠 시 삭제*/
+    float: left;
+    width: 430px;
+       margin-left: 25px;
+       margin-top: 25px;
+          margin-right: 25px;
+
+}
+section div{
+    float : left;
+}
+
+
+section strong{ /*반려 동물 제목*/
+    font-size: 20px;
+    font-style: 맑은 고딕;
+    color: black;
+}
+section fieldset{
+    width:450px;
+    height:auto;
+}
+
+
+aside#right{
+    padding: 0px;
+    margin-left: 10px;
+    width: 200px;
+    float: left;
+}
+
+#event{
+   margin-top:0px;
+     margin-bottom:0px;
+    margin-left:0px;
+    width:250px;
+}
+
+footer a{
+    float:right;
+    padding: 3px 3px 3px 3px;
+}
+
+div pre{
+   color : black;
+}
+ /*로그인 폼*/
+ .loginForm{position:relative;width:280px}
+ .loginForm .box{width:230px}
+ .loginForm .box .iText{width:150px;margin:3px 0;padding:10px 5px;border:1px solid #e1e1e1}
+ .loginForm .box p{margin-top:1em}
+ .loginForm .box p span,
+ .loginForm .box p input{height:18px;font-size:11px;color:#737373;line-height:18px;vertical-align:middle}
+ .loginForm .loginBtn{display:block;position:absolute;top:0;right:0;width:80px;height:60px;padding:10px;border-radius:5px;
+ font-size:14px;font-weight:700;color:#ffffff;line-height:60px;text-align:center;text-shadow:1px 1px 1px #004773;background:#2aff00}

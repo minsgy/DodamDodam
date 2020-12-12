@@ -1,0 +1,27 @@
+﻿html
+{
+       margin: 0 auto;
+    width: 550px;
+    height: 300px;
+}
+body h1{
+   text-align:center;
+   border-top: 5px double green;
+   border-bottom: 5px double green;
+   font-style:맑은 고딕;
+   font-weight:bolder;
+   font-size:20px;
+}
+
+pre{
+    font-weight: bolder;
+}
+body{
+    background-repeat:no-repeat;
+}
+
+button
+{
+    float:right;
+    text-align:right;
+}

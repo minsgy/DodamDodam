@@ -20,4 +20,4 @@
 - 알FTP
 
 ## 🔗 홈페이지 링크
-- (바로가기)[minseok97.woobi.co.kr]
+- [도담도담 바로가기](minseok97.woobi.co.kr)

@@ -15,7 +15,7 @@
 ## 🛠개발도구
 - HTML5
 - CSS3
-- JS
+- JS, JQUERY
 - Woobi DOMAIN
 - 알FTP
 
